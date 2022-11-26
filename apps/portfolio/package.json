@@ -3,8 +3,8 @@
   "private": true,
   "version": "2.5.1",
   "scripts": {
-    "dev": "nuxt dev --port=2590",
-    "dev:https": "nuxt dev --https --port=2591",
+    "dev": "nuxt dev ",
+    "dev:https": "nuxt dev",
     "build": "nuxt build",
     "build:e2e:ci": "pnpm run -w build:ui && nuxt build",
     "generate": "nuxt generate",
